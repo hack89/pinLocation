@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden,
+}
+
+.marker {
+    width: 24px;
+    height: 24px;
+    transform: translate(-50%, -100%);
+}
+
+.popup {
+    width: 40vw;
+    padding: 1rem;
+}
+
+.popImg {
+    width: 100%;
+}
+
+.entryForm {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.entryForm label,
+.entryForm input,
+.entryForm textarea {
+    margin: .5rem 0;
+    display: block;
+    width: 100%;
+}
